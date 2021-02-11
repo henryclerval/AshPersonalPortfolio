@@ -1,20 +1,59 @@
 /* ----------- Container ----------- */
+.container-fluid { 
+  display: block;
+  padding-left: 100px;
+  padding-right: 100px;
+}
 
+/* ----------- Body ----------- */
 
+.body { 
+  padding-top: 70px; 
+}
 
 /* ----------- Navbar ----------- */
-.navbar { 
-  z-index: 1;
-}
 
 
 /* ----------- Hero ----------- */
 .introduction { 
   background-image: url(./images/sunflower-background.jpg);
-  width: 100vw;
   min-height: 700px;
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
   position: fixed;
+  z-index: -1;
+}
+
+.btn { 
+  display: inline-block;
+  text-align: center; 
+  border: 1px solid transparent round;
+  background-color: rgb(243, 243, 243);
+  color: black;
+  padding: 15px;
+}
+
+.selfintro { 
+  padding-top: 200px;
+  padding-left: 40px;
+}
+
+
+/* ----------- Portfolio ----------- */
+.portfolioheader { 
+  text-align: center;
+  margin-top: 10px;
+}
+.aspectRatiobox {
+  padding-top: calc(2/3 * 100%);
+  background-size: cover;
+  background-position: center;
+}
+.title { 
+  padding-top: 10px;
+  padding-bottom: -18px;
+}
+#portfolio { 
+  z-index: 1;
 }
