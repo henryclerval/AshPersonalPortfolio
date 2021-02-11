@@ -57,3 +57,23 @@
 #portfolio { 
   z-index: 1;
 }
+
+
+/* ----------- About Me ----------- */
+#aboutme { 
+  text-align: center;
+}
+.flex-container { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-item { 
+  width: 500px;
+  height: 200px;
+  margin: auto;
+  font-size: 16px;
+}
+#contact { 
+  padding-top: 10px;
+}
